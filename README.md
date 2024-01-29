@@ -29,12 +29,14 @@ Este é um programa simples desenvolvido em C# que realiza as seguintes tarefas:
 2. Execute `dotnet run` para iniciar a execução do programa.
 3. O programa acessará o site da Kabum, extrairá as ofertas do dia, compilará as informações e enviará um e-mail para o destinatário especificado.
 
+
 ### Observações
 
 - Certifique-se de que suas credenciais de e-mail estejam corretas no arquivo `.env`.
 - Caso deseje alterar o intervalo de tempo para esperar a página carregar (`System.Threading.Thread.Sleep(5000)`), você pode modificar esse valor no código-fonte.
 - Em caso de erros durante a execução, verifique a saída no console para diagnóstico.
-
+- A aplicação ainda está em desenvolvimento e será modificada para se enquadrar nos principios do SOLID.
+  
 ### Avisos Legais
 
 Este programa foi desenvolvido apenas para fins educacionais e de demonstração. O uso responsável e ético é encorajado.
